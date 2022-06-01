@@ -16,7 +16,7 @@ on:
     branches:
       - main
     paths:
-      - 'build/LEDEr3g/start-up/start'
+      - 'build/LEDEr3gv2/start-up/start'
 
 env:
   Github: https://github.com/${{github.repository}}
@@ -40,7 +40,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [LEDEr3g]
+        target: [LEDEr3gv2]
         
         # [Lede_source,Lienol_source,Mortal_source,Tianling_source,openwrt_amlogic]
 
